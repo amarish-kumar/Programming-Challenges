@@ -34,4 +34,3 @@ for i in range (0, t, 1):
         
     print ("%d" % biggest)
     
-   
