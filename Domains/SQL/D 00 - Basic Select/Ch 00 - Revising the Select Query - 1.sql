@@ -20,11 +20,11 @@
 ** --------------------------------                                                          **
 ** | COUNTRYCODE  | VARCHAR2 (3)  |                                                          **
 ** --------------------------------                                                          **
-** | DISTRICT     | VATCHAR2 (20) |                                                          **
+** | DISTRICT     | VARCHAR2 (20) |                                                          **
 ** --------------------------------                                                          **
 ** | Population   | NUMBER        |                                                          **
 ** --------------------------------                                                          **
 **                                                                                           **
 **********************************************************************************************/
 
-Select * from CITY where COUNTRYCODE = 'USA' and POPULATION > 100000;
+Select * from city where countryCode = 'USA' and population > 100000;

@@ -1,30 +1,31 @@
 /**********************************************************************************************
-** HackerRank Challenge - Revising the Select Query - 2                                      **
+** HackerRank Challenge - Weather Observation Station 7                                      **
 **      SQL / Basic Select                                                                   **
 **                                                                                           **
-** https://www.hackerrank.com/challenges/revising-the-select-query-2                         **
+** https://www.hackerrank.com/challenges/weather-observation-station-7                       **
 **                                                                                           **
-** Query the names of all American cities in CITY with populations larger than 120,000. The  **
-** CountryCode for America is USA.                                                           **
+** Query the list of CITY names ending with vowels (a, e, i, o, u) from STATION. Your result **
+** cannot contain duplicates.                                                                **
 **                                                                                           **
 ** ====Input Format====                                                                      **
-** The CITY table is described as follows:                                                   **
+** The STATION table is described as follows:                                                **
 **                                                                                           **
-**              CITY                                                                         **
+**             STATION                                                                       **
 ** ================================                                                          **
 ** | Field        | Type          |                                                          **
 ** ================================                                                          **
 ** | ID           | NUMBER        |                                                          **
 ** --------------------------------                                                          **
-** | NAME         | VARCHAR2 (17) |                                                          **
+** | CITY         | VARCHAR2 (21) |                                                          **
 ** --------------------------------                                                          **
-** | COUNTRYCODE  | VARCHAR2 (3)  |                                                          **
+** | STATE        | VARCHAR2 (2)  |                                                          **
 ** --------------------------------                                                          **
-** | DISTRICT     | VARCHAR2 (20) |                                                          **
+** | LAT_N        | NUMBER        |                                                          **
 ** --------------------------------                                                          **
-** | Population   | NUMBER        |                                                          **
+** | LONG_W       | NUMBER        |                                                          **
 ** --------------------------------                                                          **
+** where LAT_N is the northern latitude and LONG_W is the western longitude.                 **
 **                                                                                           **
 **********************************************************************************************/
 
-Select name from city where countryCode = "USA" and population > 120000;
+select distinct city from station where city like "%[aeiou]";
