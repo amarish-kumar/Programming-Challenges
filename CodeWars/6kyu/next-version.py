@@ -1,6 +1,6 @@
 ###############################################################################################
 ## CodeWars - Next Version                                                                   ##
-##      Rank: 8-kyu                                                                          ##
+##      Rank: 6-kyu                                                                          ##
 ##                                                                                           ##
 ## https://www.codewars.com/kata/next-version/train/python                                   ##
 ##                                                                                           ##
