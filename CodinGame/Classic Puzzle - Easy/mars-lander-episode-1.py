@@ -102,8 +102,8 @@
 ##                                                                                           ##
 ## ==== Example ====                                                                         ##
 ## Initialization Input                                                                      ##
-##    6         	(surfaceN) Surface made of 6 points                                      ##
-##    0 1500      	(landX landY)                                                            ##
+##    6             (surfaceN) Surface made of 6 points                                      ##
+##    0 1500        (landX landY)                                                            ##
 ##    1000 2000	    (landX landY)                                                            ##
 ##    2000 500	    (landX landY) Start of flat ground                                       ##
 ##    3500 500	    (landX landY) End of flat ground                                         ##
